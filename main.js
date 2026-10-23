@@ -48,6 +48,8 @@ console.log("EL RESULTADO DE LA RESTA:"+resta);
 console.log("EL RESULTADO DE LA DIVISION:"+division);
 }
 //area de un triangulo 
+function areaTriangulo(){
+
 
 let ar
 let bas
@@ -58,6 +60,7 @@ alt=parseInt(prompt("ingresa la altura del triangulo"));
 ar=(bas*alt)/2;
 
 console.log("EL AREA DE UN TRIANGULO CUYA BASE ES" +bas,"Y CUYA ALTURA ES "+alt," ES:"+ar);
+}
 
 // promedio de 3 notas
 
